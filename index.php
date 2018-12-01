@@ -1,22 +1,5 @@
 <?php
 
-//$directory = opendir("/var/www/html/php-file-system");
-//if ($directory) {
-//    $file = readdir($directory);
-//
-//    while($file !== false) {
-//        echo "$file\n";
-//    }
-//
-//    closedir($directory);
-//}
-
-/**
- * Task 1: Create a directory called 'files' and add 3 .txt files in it. The first file will be named 'first.txt',
- * the second one 'second.txt', the third one will be named 'third.txt'. Then transfer the content from 'first.txt' to 'result.txt', with that that you
- * will replace the '-' with white space. Finally, append the content from 'second.txt' to the 'result.txt'.
- */
-
 // setting file system parameters
 $directoryName = "files";
 $fileSystemPath = getcwd();
